@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bengali Character Recognition</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../static/css/prediction.css">
+    
+
+  </head>
+  <body>
+    <a href="/" id="back-button">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+    <div id="container">
+        <audio id="bangla-audio"></audio>
+        <button id="speaker-button">
+            <i class="fas fa-volume-up" style="color: white; margin-right: 8px;"></i>Hear Again
+        </button>
+        <div id="prompt">Prompt will appear here</div>
+        <canvas id="main-canvas"></canvas>
+        <div id="button-div">
+            <button id="predict-button">Predict</button>
+          <button id="erase">Erase</button>
+          <button id="reload-button" onclick="location.reload();">Next</button>
+        </div>
+        <div id="prediction">Prediction will appear here</div>
+    </div>
+        
+    <script src="../static/js/prediction.js"></script>
+  </body>
+</html>

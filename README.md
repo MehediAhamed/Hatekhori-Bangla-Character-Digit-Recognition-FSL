@@ -1,3 +1,3 @@
-# Bangla-Character-Digit-Recognition
+# Bangla-Character-Digit-Recognition-FSL
 
  

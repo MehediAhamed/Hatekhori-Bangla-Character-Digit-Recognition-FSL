@@ -1,2 +1,3 @@
-# Arabic-Digit-Recognition
+# Bangla-Character-Digit-Recognition
+
  
